@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Package Version="4">
+    <PathDelim Value="\"/>
+    <Name Value="laz_directx"/>
+    <Type Value="RunAndDesignTime"/>
+    <CompilerOptions>
+      <Version Value="11"/>
+      <PathDelim Value="\"/>
+      <SearchPaths>
+        <UnitOutputDirectory Value="lib\$(TargetCPU)-$(TargetOS)\"/>
+      </SearchPaths>
+      <Parsing>
+        <SyntaxOptions>
+          <SyntaxMode Value="Delphi"/>
+        </SyntaxOptions>
+      </Parsing>
+    </CompilerOptions>
+    <Files Count="7">
+      <Item1>
+        <Filename Value="direct3d9.pas"/>
+        <UnitName Value="direct3d9"/>
+      </Item1>
+      <Item2>
+        <Filename Value="directdraw.pas"/>
+        <UnitName Value="directdraw"/>
+      </Item2>
+      <Item3>
+        <Filename Value="directshow9.pas"/>
+        <UnitName Value="directshow9"/>
+      </Item3>
+      <Item4>
+        <Filename Value="directsound.pas"/>
+        <UnitName Value="directsound"/>
+      </Item4>
+      <Item5>
+        <Filename Value="directx.inc"/>
+        <Type Value="Include"/>
+      </Item5>
+      <Item6>
+        <Filename Value="dxtypes.pas"/>
+        <UnitName Value="dxtypes"/>
+      </Item6>
+      <Item7>
+        <Filename Value="jedi.inc"/>
+        <Type Value="Include"/>
+      </Item7>
+    </Files>
+    <RequiredPkgs Count="1">
+      <Item1>
+        <PackageName Value="FCL"/>
+      </Item1>
+    </RequiredPkgs>
+    <UsageOptions>
+      <UnitPath Value="$(PkgOutDir)"/>
+    </UsageOptions>
+    <PublishOptions>
+      <Version Value="2"/>
+    </PublishOptions>
+  </Package>
+</CONFIG>
