@@ -8,7 +8,7 @@
       <Version Value="11"/>
       <PathDelim Value="\"/>
       <SearchPaths>
-        <UnitOutputDirectory Value="lib\$(TargetCPU)-$(TargetOS)\"/>
+        <UnitOutputDirectory Value="lib\$(TargetCPU)-$(TargetOS)"/>
       </SearchPaths>
       <Parsing>
         <SyntaxOptions>
@@ -16,7 +16,7 @@
         </SyntaxOptions>
       </Parsing>
     </CompilerOptions>
-    <Files Count="7">
+    <Files Count="9">
       <Item1>
         <Filename Value="direct3d9.pas"/>
         <UnitName Value="direct3d9"/>
@@ -45,6 +45,14 @@
         <Filename Value="jedi.inc"/>
         <Type Value="Include"/>
       </Item7>
+      <Item8>
+        <Filename Value="wmf9.pas"/>
+        <UnitName Value="WMF9"/>
+      </Item8>
+      <Item9>
+        <Filename Value="dxdiag.pas"/>
+        <UnitName Value="DxDiag"/>
+      </Item9>
     </Files>
     <RequiredPkgs Count="1">
       <Item1>
@@ -57,5 +65,8 @@
     <PublishOptions>
       <Version Value="2"/>
     </PublishOptions>
+    <CustomOptions Items="ExternHelp" Version="2">
+      <_ExternHelp Items="Count"/>
+    </CustomOptions>
   </Package>
 </CONFIG>

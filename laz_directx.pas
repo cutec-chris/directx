@@ -7,7 +7,8 @@ unit laz_directx;
 interface
 
 uses
-  direct3d9, directdraw, directshow9, directsound, dxtypes, LazarusPackageIntf;
+  direct3d9, directdraw, directshow9, directsound, dxtypes, WMF9, DxDiag, 
+  LazarusPackageIntf;
 
 implementation
 
